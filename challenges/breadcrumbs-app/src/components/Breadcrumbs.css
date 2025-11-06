@@ -1,0 +1,35 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  font-family: system-ui, sans-serif;
+  font-size: 15px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.breadcrumb-link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.breadcrumb-link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-separator {
+  margin: 0 8px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.breadcrumb-current {
+  font-weight: 600;
+  color: #444;
+}
