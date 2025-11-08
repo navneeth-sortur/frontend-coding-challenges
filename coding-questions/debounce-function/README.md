@@ -36,7 +36,6 @@ window.addEventListener("resize", debouncedResize);
    - Clears the previous timer each time it’s called.
    - Starts a new timer.
    - Executes `fn` only after the delay passes without new calls.
-3. After traversal, if the stack is empty → "Balanced", else "Not Balanced".
 
 ---
 
